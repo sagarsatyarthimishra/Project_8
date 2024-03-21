@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+    padding: 0 1.5vw;
+}
+#navbar h3{
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#navbar #nav{
+    display: flex;
+    gap: 40px;
+}
+#navbar #nav h3 a{
+    text-decoration: none;
+}
+#center{
+    margin-top: 15vw;
+}
+h1{
+    font-size:7vw;
+    line-height: 5.5vw;
+    /* background-color: red; */
+    width:80%;
+    margin-left: 10%;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 999;
+}
+#center h1:nth-child(2){
+    text-align: center;
+}
+#center h1:nth-child(3){
+    text-align: center;
+}
+img{
+    height: 365px;
+    width:300px;
+    position: absolute;
+    top: 12%;
+    left: 40%;
+}
+#img1{
+    rotate: 55deg;
+}
+#img2{
+    rotate: 46deg;
+}
+#img3{
+    rotate: 37deg;
+}
+#img4{
+    rotate: 28deg;
+}
+#img5{
+    rotate: 19deg;
+}
+#img6{
+    rotate: 10deg;
+}
+footer{
+    padding: 0 1.5vw;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    gap: 27vw;
+    align-items: flex-end;
+}
+h3{
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+@media (min-width:214px) and (max-width:400px) {
+    #navbar{
+        height: 10vvh;
+        padding: 0 5vw;
+    }
+    #navbar h3{
+        font-size: 1.8vw;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    #navbar #nav{
+        display: flex;
+        gap: 8vw;
+    }
+    #navbar #nav h3 a{
+        text-decoration: none;
+    }
+    #center{
+        margin-top: 85vw;
+    }
+    img{
+        height: 265px;
+        width:200px;
+        position: absolute;
+        top:21%;
+        left: 20%;
+    }
+    footer{
+        padding: 0 5vw;
+        position: absolute;
+        bottom: 3%;
+        display: flex;
+        gap: 13vw;
+        align-items: flex-end;
+    }
+    h3{
+        font-size: 1.8vw;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
